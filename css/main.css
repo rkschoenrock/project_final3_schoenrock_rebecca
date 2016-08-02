@@ -281,7 +281,7 @@ iframe {
 }
 
 .socialmedia img {
-	width: calc(100%/3 - 3px);
+	width: calc(100% / 3 - 3px);
 	max-width: 150px;
 	margin: auto;
 	display: inline-block;
@@ -320,6 +320,16 @@ input {
 	margin-bottom: 10px;
 }
 
+.rating p {
+	text-align: center;
+}
+
+#rateYo {
+	width: 160px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
 @media screen and (min-width: 1000px) {
 	.contact {
 		margin-bottom: 0px;
@@ -327,7 +337,7 @@ input {
 	iframe {
 		width: calc(100% - 40px);
 		margin: 20px;
-		height: 361px;
+		height: 437px;
 	}
 	.socialmedia {
 		width: 425px;
