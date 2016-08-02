@@ -234,7 +234,6 @@ article {
 
 /* ------Menu-------- */
 
-
 .menuwrapper .articleleft,
 .menuwrapper .articleright {
 	margin-top: 0px;
@@ -258,4 +257,76 @@ article {
 
 .dessert p {
 	padding: 0px 40px 20px 40px;
+}
+
+/* ------Contact-------- */
+
+.location p {
+	text-align: center;
+}
+
+.location a {
+	color: #295fb0;
+}
+
+iframe {
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.socialmedia {
+	clear: both;
+	width: 90%;
+	margin: auto;
+}
+
+.socialmedia img {
+	width: calc(100%/3 - 3px);
+	max-width: 150px;
+	margin: auto;
+	display: inline-block;
+}
+
+form {
+	width: 90%;
+	margin: auto;
+}
+
+#first,
+#last,
+#email,
+#message {
+	width: 100%;
+	margin: 10px -10px;
+	padding: 10px 10px;
+	border: 1px solid #5dbdea;
+}
+
+#submit {
+	float: right;
+	background-color: #5dbdea;
+	border: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+#submit:hover {
+	background-color: #295fb0;
+	color: #f4f171;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+	iframe {
+		width: calc(100% - 40px);
+		margin: 20px;
+		height: 361px;
+	}
+	.socialmedia {
+		width: 425px;
+	}
 }
