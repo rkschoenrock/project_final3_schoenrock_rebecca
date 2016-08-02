@@ -1,3 +1,8 @@
+var fiveKList = document.getElementById('fivek'); //selects #fivek on homepage
+var finalCountdown = document.createElement('div'); //creates a div
+finalCountdown.innerHTML = "<h3 id='jsh3'>It's the Final Countdown</h3>"; //adds h3 to the div
+fiveKList.appendChild(finalCountdown);
+
 $(document).ready(function () {
 
     $('#rateYo').rateYo({
