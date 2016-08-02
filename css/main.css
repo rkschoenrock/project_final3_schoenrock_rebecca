@@ -151,7 +151,7 @@ article {
 	border-bottom: 1px solid #5dbdea;
 }
 
-/*------Homepage--------*/
+/* ------Homepage-------- */
 
 .welcome p {
 	padding-bottom: 20px;
@@ -163,13 +163,13 @@ article {
 	border-bottom: 1px solid #5dbdea;
 }
 
-.testimonials img {
+.articleright img {
 	width: 300px;
 	display: block;
 	margin: auto;
 }
 
-.events img {
+.articleleft img {
 	width: 90%;
 	max-width: 400px;
 	display: block;
@@ -177,14 +177,14 @@ article {
 	padding-bottom: 20px;
 }
 
-.testimonials ul li,
-.events ul li {
+.articleleft ul li,
+.articleright ul li {
 	list-style: none;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-	.testimonials,
-	.events {
+	.articleright,
+	.articleleft {
 		width: 60%;
 		margin: 20px auto;
 	}
@@ -201,15 +201,15 @@ article {
 		border: 20px solid #ffffff;
 		outline: 1px solid #5dbdea;
 	}
-	.testimonials {
-		margin-right: 20px;
-		width: calc(50% - 30px);
+	.articleright {
+		margin-right: 60px;
+		width: calc(50% - 70px);
 		float: right;
 		display: inline-block;
 	}
-	.events {
-		margin-left: 20px;
-		width: calc(50% - 30px);
+	.articleleft {
+		margin-left: 60px;
+		width: calc(50% - 70px);
 		float: left;
 		display: inline-block;
 	}
@@ -225,4 +225,10 @@ article {
 		position: relative;
 		float: right;
 	}
+}
+
+/* ------Menu-------- */
+
+.menupics {
+	clear: both;
 }
