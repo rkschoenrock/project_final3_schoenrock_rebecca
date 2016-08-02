@@ -157,7 +157,7 @@ article {
 	padding-bottom: 20px;
 }
 
-img {
+.ribbon {
 	width: 100%;
 	border-top: 1px solid #5dbdea;
 	border-bottom: 1px solid #5dbdea;
@@ -167,25 +167,62 @@ img {
 	width: 300px;
 	display: block;
 	margin: auto;
-	border: none;
 }
 
 .events img {
-	width: 400px;
+	width: 90%;
+	max-width: 400px;
 	display: block;
 	margin: auto;
-	border: none;
 	padding-bottom: 20px;
 }
 
-.testimonials ul li, .events ul li {
+.testimonials ul li,
+.events ul li {
 	list-style: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
 	.testimonials,
 	.events {
 		width: 60%;
 		margin: 20px auto;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.welcome {
+		max-width: 1000px;
+	}
+	.ribbon {
+		width: 50%;
+		margin: auto;
+		display: block;
+		border: 20px solid #ffffff;
+		outline: 1px solid #5dbdea;
+	}
+	.testimonials {
+		margin-right: 20px;
+		width: calc(50% - 30px);
+		float: right;
+		display: inline-block;
+	}
+	.events {
+		margin-left: 20px;
+		width: calc(50% - 30px);
+		float: left;
+		display: inline-block;
+	}
+	footer {
+		clear: both;
+	}
+	.alignleft {
+		text-align: left;
+	}
+	.alignright {
+		text-align: right;
+		margin-top: -50px;
+		position: relative;
+		float: right;
 	}
 }
