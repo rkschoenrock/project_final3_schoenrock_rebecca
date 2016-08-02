@@ -163,8 +163,13 @@ article {
 	border-bottom: 1px solid #5dbdea;
 }
 
-.articleright img {
+.buster {
 	width: 300px;
+}
+
+.articleright img {
+	width: 90%;
+	max-width: 400px;
 	display: block;
 	margin: auto;
 }
@@ -203,7 +208,7 @@ article {
 	}
 	.articleright {
 		margin-right: 60px;
-		width: calc(50% - 70px);
+		width: calc(50% - 75px);
 		float: right;
 		display: inline-block;
 	}
@@ -229,6 +234,28 @@ article {
 
 /* ------Menu-------- */
 
+
+.menuwrapper .articleleft,
+.menuwrapper .articleright {
+	margin-top: 0px;
+}
+
+.gob {
+	margin-bottom: 20px;
+}
+
 .menupics {
 	clear: both;
+}
+
+.menu li {
+	margin-bottom: 40px;
+}
+
+.menu img {
+	margin-top: 20px;
+}
+
+.dessert p {
+	padding: 0px 40px 20px 40px;
 }
