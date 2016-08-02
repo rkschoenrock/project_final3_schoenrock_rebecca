@@ -1,0 +1,140 @@
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+body {
+	background-image: url("../img/bkgd.png");
+}
+
+@font-face {
+	font-family: Variane;
+	src: url(../fonts/variane-script.ttf);
+}
+
+@font-face {
+	font-family: Typoster;
+	src: url(../fonts/Typoster.otf);
+}
+
+@font-face {
+	font-family: Geneva;
+	src: url(../fonts/Geneva.ttf);
+}
+
+header {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+header img {
+	width: 300px;
+	margin: auto;
+	padding: 20px;
+	display: block;
+}
+
+nav {
+	background-color: #295fb0;
+	margin: 0px;
+}
+
+nav ul {
+	width: 100%;
+	margin: 0;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+nav ul li {
+	width: 100%;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background-color: #5dbdea;
+}
+
+nav ul li a {
+	width: 100%;
+	padding: 20px 0px;
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	width: 100%;
+	background-color: #5dbdea;
+	color: #8d6252;
+}
+
+h2 {
+	margin: 10px 0px 0px 0px;
+	padding: 20px;
+	font-family: Variane;
+	font-size: 48px;
+	font-weight: 300;
+	color: #e64a4a;
+	text-align: center;
+}
+
+h3 {
+	margin: 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: center;
+	font-family: Typoster;
+	font-size: 28px;
+	font-weight: 300;
+	color: #5dbdea;
+}
+
+p,
+li {
+	margin: 0px;
+	font-family: Geneva;
+	line-height: 1.5rem;
+}
+
+p {
+	padding: 0px 20px;
+}
+
+li {
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+
+.bold {
+	font-weight: bold;
+	color: #8d6252;
+}
+
+footer {
+	padding: 20px;
+	background-color: #295fb0;
+	color: #ffffff;
+	overflow: hidden;
+	text-align: center;
+}
+
+article {
+	background-color: #ffffff;
+	margin: 20px 0px;
+	border-top: 1px solid #5dbdea;
+	border-bottom: 1px solid #5dbdea;
+}
+
+/*------Homepage--------*/
+
+.testimonials ul li, .events ul li {
+	list-style: none;
+}
