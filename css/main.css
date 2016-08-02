@@ -77,6 +77,24 @@ nav ul li a:hover {
 	color: #8d6252;
 }
 
+@media screen and (min-width: 600px) {
+	nav ul li {
+		width: calc(50% - 40px);
+		display: inline;
+		padding: 20px;
+	}
+	nav ul li a {
+		display: inline;
+	}
+	article {
+		border: 1px solid #5dbdea;
+	}
+	.welcome {
+		width: 80%;
+		margin: 20px auto;
+	}
+}
+
 h2 {
 	margin: 10px 0px 0px 0px;
 	padding: 20px;
@@ -135,6 +153,39 @@ article {
 
 /*------Homepage--------*/
 
+.welcome p {
+	padding-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	border-top: 1px solid #5dbdea;
+	border-bottom: 1px solid #5dbdea;
+}
+
+.testimonials img {
+	width: 300px;
+	display: block;
+	margin: auto;
+	border: none;
+}
+
+.events img {
+	width: 400px;
+	display: block;
+	margin: auto;
+	border: none;
+	padding-bottom: 20px;
+}
+
 .testimonials ul li, .events ul li {
 	list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+	.testimonials,
+	.events {
+		width: 60%;
+		margin: 20px auto;
+	}
 }
