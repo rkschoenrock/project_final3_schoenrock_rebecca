@@ -18,6 +18,11 @@ $(document).ready(function () {
         }
     }
     setTimeout(incFade, interval);
+
+    var contactArticle = document.getElementsByClassName('contact')[0];
+    var hours = document.createElement('div');
+    hours.innerHTML = '<h3>Hours</h3><p>Mon-Thurs <span class="bold">12pm-8pm</span>, Fri-Sun <span class="bold">10am-10pm</span></p>';
+    contactArticle.appendChild(hours);
 });
 
 
