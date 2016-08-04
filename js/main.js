@@ -31,9 +31,9 @@ var finalCountdown = document.createElement('div'); //creates a div
 finalCountdown.innerHTML = "<h3 id='jsh3'>It's the Final Countdown</h3>"; //adds h3 to the div
 fiveKList.appendChild(finalCountdown);
 
-$('#jsh3').click(function () {
-    $(' .looseseal').animate({
-        height: ['toggle', 'swing']
-    }, 2000, function () {
+$('#jsh3').click(function () { //selects the ID "jsh3"
+    $(' .looseseal').animate({ //animates the loose seal class
+        height: ['toggle', 'swing'] //makes the image toggle and swing
+    }, 2000, function () { //for two seconds
     });
 });
