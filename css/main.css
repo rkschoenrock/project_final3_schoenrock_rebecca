@@ -195,6 +195,10 @@ article {
 	margin-top: 12px;
 }
 
+.looseseal {
+	padding-bottom: 20px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1000px) {
 	.articleright,
 	.articleleft {
