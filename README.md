@@ -3,7 +3,7 @@
 
 ## Links
 
-* [GitHub]()
+* [GitHub](https://github.com/rkschoenrock/project_final3_schoenrock_rebecca)
 * [Upload](http://rebeccaschoenrock.com/project_final3_schoenrock_rebecca/)
 
 ## Resources
